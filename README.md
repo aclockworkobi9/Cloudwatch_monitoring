@@ -3,7 +3,7 @@
 
 ## Setup
 
-1. Launch an EC2 instance with SSH and HTTPS configuration.
+1. Launch an EC2 instance with SSH and HTTP configuration.
 
 2. SSH into the instance.
 
