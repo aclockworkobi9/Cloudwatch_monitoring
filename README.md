@@ -6,6 +6,7 @@
 1. Launch an EC2 instance with SSH and HTTP configuration.
 
 2. SSH into the instance.
+ 
 ![MicrosoftTeams-image (1)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/87d9973c-8497-435c-bd45-09fdc44ab5e0)
 
 
@@ -41,6 +42,7 @@
     ```bash
     git clone https://github.com/aclockworkobi9/cloudwatch_cpu_spike.git
     ```
+ 
 ![MicrosoftTeams-image (2)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/ebab17fa-85f4-4ee8-8428-a2ae6abdf82b)
 
 
@@ -49,6 +51,7 @@
 1. Go to the AWS Management Console and navigate to CloudWatch.
 
 2. Under Metrics, look for "EC2" and search for CPU Utilization and you will see no utilization at that specific moment.
+ 
 ![MicrosoftTeams-image (3)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/4fc73067-438b-475e-b6cd-900dc9b9d953)
 ![MicrosoftTeams-image (4)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/0f1fa618-8490-4b2f-b938-d062a6e0124d)
 ![MicrosoftTeams-image (5)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/5581d38f-efbf-4baf-b850-ae68d5739f87)
@@ -61,6 +64,7 @@
    - Accept the subscription from the email address provided.
    - Create the alarm with the message.
      
+ 
 ![MicrosoftTeams-image (6)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/b16f6c1f-a847-477f-8908-74cf338e2fab)
 ![MicrosoftTeams-image (7)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/d6e134ef-0532-4800-89c0-01afbf61cdce)
 ![MicrosoftTeams-image (8)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/01d3e8d6-c25c-4782-b6fe-c6f2fddbd0a5)
@@ -79,16 +83,19 @@
     ```bash
     python3 spike_cpu.py
     ```
+
 ![MicrosoftTeams-image (12)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/d70d92f5-2a1d-4335-b548-6a756853e9c3)
 
 
 3. Observe the CPU utilization reaching 50% or above.
+ 
 ![MicrosoftTeams-image (13)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/6d9a1f34-1e0b-4e7d-87e9-68f563ed6c9b)
 ![MicrosoftTeams-image (14)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/0d586341-d624-4b92-9f5b-f50154d912db)
 ![MicrosoftTeams-image (15)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/14e48269-4c19-4523-a68c-f13c0a7ed059)
 
 
 4. You will receive an alert notification on the email address you provided.
+ 
 ![MicrosoftTeams-image (16)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/9305b5da-11ce-4bd7-9f9a-83754c6c7b60)
 ![MicrosoftTeams-image (17)](https://github.com/aclockworkobi9/Cloudwatch_monitoring/assets/146419037/cc0d8863-fa3a-4275-a746-8cdc7a51b3ec)
 
